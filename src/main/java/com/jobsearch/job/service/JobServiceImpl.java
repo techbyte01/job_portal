@@ -40,7 +40,6 @@ public class JobServiceImpl implements JobService {
 		else {
 			return jobRepo.getJobs(location, skill);	
 		}
-		// TODO Auto-generated method stub
 		
 	}
 	

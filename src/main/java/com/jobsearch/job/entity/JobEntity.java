@@ -4,12 +4,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+//Entity class for job
 @Entity
 public class JobEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+	private String skillsRequired;
+	private String jobLocation;
+	private long contact;
+	private String email;
 	public JobEntity(int id, String jobTitle, String jobDescription, String skillsRequired, String jobLocation,
 			long contact, String email) {
 		super();
@@ -68,8 +72,4 @@ public class JobEntity {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	private String skillsRequired;
-	private String jobLocation;
-	private long contact;
-	private String email;
 }

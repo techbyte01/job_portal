@@ -1,0 +1,5 @@
+com.jobsearch
+com.jobsearch.job.controller
+com.jobsearch.job.entity
+com.jobsearch.job.repo
+com.jobsearch.job.service

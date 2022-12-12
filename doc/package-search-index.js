@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.jobsearch"},{"l":"com.jobsearch.job.controller"},{"l":"com.jobsearch.job.entity"},{"l":"com.jobsearch.job.repo"},{"l":"com.jobsearch.job.service"}];updateSearchResults();

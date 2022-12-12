@@ -18,3 +18,129 @@
 2022-12-12 15:01:46,193 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-12-12 15:01:46,704 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
 2022-12-12 15:01:46,718 [INFO] com.jobsearch.JobSearchApplication [main] Started JobSearchApplication in 7.201 seconds (JVM running for 8.759)
+2022-12-12 15:31:28,163 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(33)-127.0.0.1] Application shutdown requested.
+2022-12-12 15:31:28,571 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(33)-127.0.0.1] Stopping service [Tomcat]
+2022-12-12 15:31:28,600 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(33)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 15:31:28,605 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(33)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-12 15:31:28,622 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(33)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-12 15:31:31,826 [INFO] com.jobsearch.JobSearchApplication [main] Starting JobSearchApplication using Java 1.8.0_241 on DESKTOP-VE2VI97 with PID 23648 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch)
+2022-12-12 15:31:31,831 [INFO] com.jobsearch.JobSearchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-12 15:31:32,959 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12 15:31:33,049 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2022-12-12 15:31:33,930 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2022-12-12 15:31:33,952 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-12 15:31:33,953 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-12 15:31:34,218 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-12 15:31:34,219 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2298 ms
+2022-12-12 15:31:34,536 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12 15:31:34,659 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-12 15:31:35,131 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-12 15:31:35,349 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-12 15:31:36,253 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-12 15:31:36,300 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-12 15:31:37,648 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12 15:31:37,672 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 15:31:38,267 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12 15:31:38,803 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-12 15:31:38,817 [INFO] com.jobsearch.JobSearchApplication [main] Started JobSearchApplication in 7.78 seconds (JVM running for 9.226)
+2022-12-12 15:45:38,064 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2022-12-12 15:45:38,385 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(16)-127.0.0.1] Stopping service [Tomcat]
+2022-12-12 15:45:38,406 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(16)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 15:45:38,410 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-12 15:45:38,431 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-12 15:45:41,393 [INFO] com.jobsearch.JobSearchApplication [main] Starting JobSearchApplication using Java 1.8.0_241 on DESKTOP-VE2VI97 with PID 13852 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch)
+2022-12-12 15:45:41,399 [INFO] com.jobsearch.JobSearchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-12 15:45:42,448 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12 15:45:42,538 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2022-12-12 15:45:43,424 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2022-12-12 15:45:43,441 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-12 15:45:43,442 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-12 15:45:43,655 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-12 15:45:43,656 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2178 ms
+2022-12-12 15:45:43,945 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12 15:45:44,035 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-12 15:45:44,449 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-12 15:45:44,624 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-12 15:45:45,485 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-12 15:45:45,523 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-12 15:45:46,613 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12 15:45:46,630 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 15:45:47,190 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12 15:45:47,701 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-12 15:45:47,716 [INFO] com.jobsearch.JobSearchApplication [main] Started JobSearchApplication in 7.051 seconds (JVM running for 8.312)
+2022-12-12 15:46:45,570 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-12 15:46:45,570 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-12-12 15:46:45,573 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Completed initialization in 2 ms
+2022-12-12 15:46:45,781 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-2] JobController - addJob Running
+2022-12-12 15:46:45,782 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-2] JobService - addJob Running
+2022-12-12 15:46:45,926 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-2] JobService - getAllJobs Running
+2022-12-12 15:49:36,919 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-5] JobController - addJob Running
+2022-12-12 15:49:36,920 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-5] JobService - addJob Running
+2022-12-12 15:49:36,944 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-5] JobService - getAllJobs Running
+2022-12-12 15:51:47,284 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-8] JobController - addJob Running
+2022-12-12 15:51:47,285 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-8] JobService - addJob Running
+2022-12-12 15:51:47,309 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-8] JobService - getAllJobs Running
+2022-12-12 15:52:22,164 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] JobController - addJob Running
+2022-12-12 15:52:22,165 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] JobService - addJob Running
+2022-12-12 15:52:22,201 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] JobService - getAllJobs Running
+2022-12-12 15:52:58,060 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] JobController - addJob Running
+2022-12-12 15:52:58,061 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] JobService - addJob Running
+2022-12-12 15:52:58,092 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] JobService - getAllJobs Running
+2022-12-12 15:53:28,551 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-1] JobController - getAllJobs Running
+2022-12-12 15:53:28,551 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-1] JobService - getAllJobs Running
+2022-12-12 15:58:37,083 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-4] JobController - getAllJobs Running
+2022-12-12 15:58:37,084 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-4] JobService - getAllJobs Running
+2022-12-12 15:59:07,624 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-5] JobController - getAllJobs Running
+2022-12-12 15:59:07,624 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-5] JobService - getAllJobs Running
+2022-12-12 15:59:53,439 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-6] JobController - getJob Running
+2022-12-12 15:59:53,440 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-6] JobService - viewJobs Running
+2022-12-12 15:59:53,440 [WARN] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-6] No value has been passed for skill
+2022-12-12 16:01:14,011 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] JobController - getJob Running
+2022-12-12 16:01:14,012 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] JobService - viewJobs Running
+2022-12-12 16:01:14,012 [WARN] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-9] No value has been passed for skill
+2022-12-12 16:01:27,338 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] JobController - getJob Running
+2022-12-12 16:01:27,342 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] JobService - viewJobs Running
+2022-12-12 16:01:27,343 [WARN] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-10] No value has been passed for skill
+2022-12-12 16:01:44,712 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-1] JobController - getJob Running
+2022-12-12 16:01:44,713 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-1] JobService - viewJobs Running
+2022-12-12 16:01:44,713 [WARN] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-1] No value has been passed for skill
+2022-12-12 16:02:29,583 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-2] JobController - getJob Running
+2022-12-12 16:02:29,584 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-2] JobService - viewJobs Running
+2022-12-12 16:02:40,056 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-3] JobController - getJob Running
+2022-12-12 16:02:40,056 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-3] JobService - viewJobs Running
+2022-12-12 16:02:40,056 [WARN] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-3] No value has been passed for skill
+2022-12-12 16:03:03,789 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-4] JobController - getJob Running
+2022-12-12 16:03:03,790 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-4] JobService - viewJobs Running
+2022-12-12 16:17:23,106 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-7] JobController - deleteJob Running
+2022-12-12 16:17:23,107 [INFO] com.jobsearch.job.controller.JobContoller [http-nio-9090-exec-7] JobService - DeleteJob Running
+2022-12-12 16:27:00,389 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(43)-127.0.0.1] Application shutdown requested.
+2022-12-12 16:27:00,740 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(43)-127.0.0.1] Stopping service [Tomcat]
+2022-12-12 16:27:00,743 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(43)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12 16:27:00,759 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(43)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 16:27:00,763 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(43)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-12 16:27:00,782 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(43)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-12-12 16:27:03,900 [INFO] com.jobsearch.JobSearchApplication [main] Starting JobSearchApplication using Java 1.8.0_241 on DESKTOP-VE2VI97 with PID 28216 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\JobSearch)
+2022-12-12 16:27:03,907 [INFO] com.jobsearch.JobSearchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-12 16:27:04,963 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12 16:27:05,053 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2022-12-12 16:27:05,886 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2022-12-12 16:27:05,919 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-12 16:27:05,921 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-12 16:27:06,140 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-12 16:27:06,141 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2148 ms
+2022-12-12 16:27:06,438 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12 16:27:06,532 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-12 16:27:06,942 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-12 16:27:07,181 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-12 16:27:08,091 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-12 16:27:08,128 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-12 16:27:09,350 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12 16:27:09,389 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 16:27:09,998 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12 16:27:10,517 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-12 16:27:10,531 [INFO] com.jobsearch.JobSearchApplication [main] Started JobSearchApplication in 7.41 seconds (JVM running for 8.819)
+2022-12-12 16:32:14,953 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2022-12-12 16:32:15,379 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(7)-127.0.0.1] Stopping service [Tomcat]
+2022-12-12 16:32:15,396 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12 16:32:15,399 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-12-12 16:32:15,418 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.

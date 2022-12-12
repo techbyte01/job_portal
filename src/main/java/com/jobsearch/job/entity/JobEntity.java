@@ -10,6 +10,8 @@ public class JobEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+	private String jobTitle;
+	private String jobDescription;
 	private String skillsRequired;
 	private String jobLocation;
 	private long contact;
@@ -28,8 +30,6 @@ public class JobEntity {
 	public JobEntity() {
 		super();
 	}
-	private String jobTitle;
-	private String jobDescription;
 	public int getId() {
 		return id;
 	}
